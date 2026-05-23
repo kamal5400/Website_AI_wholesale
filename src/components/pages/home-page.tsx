@@ -95,20 +95,28 @@ function HeroSection() {
           <div className="relative mx-auto max-w-xl">
             <div className="absolute inset-0 -translate-y-4 rounded-full bg-emerald-400/18 blur-3xl" />
             <div className="relative rounded-[36px] border border-white/10 bg-white/8 p-5 shadow-[0_30px_120px_rgba(5,15,35,0.55)] backdrop-blur-xl">
-              <div className="absolute -left-6 top-10 hidden rounded-[26px] border border-emerald-300/20 bg-slate-950/85 p-4 shadow-2xl md:block">
+              <div className="absolute left-4 top-10 hidden max-w-[220px] rounded-[26px] border border-emerald-300/20 bg-slate-950/85 p-4 shadow-2xl md:block xl:-left-6">
                 <p className="text-xs uppercase tracking-[0.24em] text-emerald-200">
-                  Bestseller Pulse
+                  Demand Signal
                 </p>
-                <p className="mt-2 text-base font-semibold text-white">Trending Watches</p>
-                <p className="mt-1 text-xs text-slate-400">Fast gifting seller</p>
+                <p className="mt-2 text-base font-semibold leading-snug text-white">
+                  Smartwatch Bestsellers
+                </p>
+                <p className="mt-1 text-xs leading-5 text-slate-400">
+                  Fast-moving styles with strong gift appeal
+                </p>
               </div>
 
-              <div className="absolute -right-6 bottom-12 hidden rounded-[26px] border border-sky-300/20 bg-slate-950/85 p-4 shadow-2xl md:block">
+              <div className="absolute right-4 bottom-12 hidden max-w-[250px] rounded-[26px] border border-sky-300/20 bg-slate-950/85 p-4 shadow-2xl md:block xl:-right-6">
                 <p className="text-xs uppercase tracking-[0.24em] text-sky-200">
-                  Retail Margin
+                  Margin Opportunity
                 </p>
-                <p className="mt-2 text-base font-semibold text-white">Better Mix</p>
-                <p className="mt-1 text-xs text-slate-400">Accessories + phones + viral picks</p>
+                <p className="mt-2 text-base font-semibold leading-snug text-white">
+                  Balanced Product Mix
+                </p>
+                <p className="mt-1 text-xs leading-5 text-slate-400">
+                  Accessories, phones, and viral add-ons that lift basket value
+                </p>
               </div>
 
               <div className="relative aspect-[4/4.1] overflow-hidden rounded-[30px] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(52,211,153,0.2),_transparent_32%),radial-gradient(circle_at_75%_18%,_rgba(96,165,250,0.16),_transparent_18%),linear-gradient(180deg,_rgba(10,16,30,0.95),_rgba(2,6,23,0.98))]">
@@ -122,9 +130,9 @@ function HeroSection() {
               </div>
 
               <div className="mt-5 grid gap-4 sm:grid-cols-3">
-                <FloatingMetric label="Retailer Reach" value="Kathmandu +" />
-                <FloatingMetric label="Wholesale Focus" value="Fast Movers" />
-                <FloatingMetric label="Support Style" value="Relationship-led" />
+                <FloatingMetric label="Retail Network" value="Kathmandu and beyond" />
+                <FloatingMetric label="Stock Focus" value="Fast-moving gadgets" />
+                <FloatingMetric label="Support Model" value="Relationship-first" />
               </div>
             </div>
           </div>
@@ -466,7 +474,7 @@ function FloatingMetric({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded-[22px] border border-white/10 bg-slate-950/70 p-4">
       <p className="text-xs uppercase tracking-[0.2em] text-slate-500">{label}</p>
-      <p className="mt-2 text-sm font-semibold text-white">{value}</p>
+      <p className="mt-2 text-sm font-semibold leading-6 text-white">{value}</p>
     </div>
   );
 }

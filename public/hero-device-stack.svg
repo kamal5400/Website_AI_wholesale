@@ -9,9 +9,9 @@
   <rect x="457" y="255" width="231" height="350" rx="28" transform="rotate(10 457 255)" fill="url(#screen2)"/>
   <rect x="560" y="614" width="130" height="130" rx="34" fill="#0A172C" stroke="#67E8F9" stroke-opacity="0.4" stroke-width="3"/>
   <circle cx="625" cy="679" r="38" fill="url(#lens)"/>
-  <path d="M245 706C245 677.281 268.281 654 297 654H517C545.719 654 569 677.281 569 706V746C569 774.719 545.719 798 517 798H297C268.281 798 245 774.719 245 746V706Z" fill="#071121" stroke="#56D6F6" stroke-opacity="0.25" stroke-width="2"/>
-  <text x="282" y="716" fill="#67E8F9" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">TRENDING</text>
-  <text x="282" y="756" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="40" font-weight="700">Retail Gadget Mix</text>
+  <path d="M220 706C220 677.281 243.281 654 272 654H564C592.719 654 616 677.281 616 706V746C616 774.719 592.719 798 564 798H272C243.281 798 220 774.719 220 746V706Z" fill="#071121" stroke="#56D6F6" stroke-opacity="0.25" stroke-width="2"/>
+  <text x="255" y="716" fill="#67E8F9" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="4">TRENDING LINEUP</text>
+  <text x="255" y="756" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="36" font-weight="700">High-Demand Retail Picks</text>
   <defs>
     <linearGradient id="bg" x1="90" y1="55" x2="790" y2="930" gradientUnits="userSpaceOnUse">
       <stop stop-color="#09111F"/>
