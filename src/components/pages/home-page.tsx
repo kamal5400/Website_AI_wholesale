@@ -121,7 +121,7 @@ function HeroSection() {
 
               <div className="relative aspect-[4/4.1] overflow-hidden rounded-[30px] border border-white/10 bg-[radial-gradient(circle_at_top,_rgba(52,211,153,0.2),_transparent_32%),radial-gradient(circle_at_75%_18%,_rgba(96,165,250,0.16),_transparent_18%),linear-gradient(180deg,_rgba(10,16,30,0.95),_rgba(2,6,23,0.98))]">
                 <Image
-                  src="/hero-device-stack.svg"
+                  src="/hero-device-stack-v2.svg"
                   alt="Premium electronics hero visual"
                   fill
                   priority
