@@ -95,7 +95,7 @@ function HeroSection() {
           <div className="relative mx-auto max-w-xl">
             <div className="absolute inset-0 -translate-y-4 rounded-full bg-emerald-400/18 blur-3xl" />
             <div className="relative rounded-[36px] border border-white/10 bg-white/8 p-5 shadow-[0_30px_120px_rgba(5,15,35,0.55)] backdrop-blur-xl">
-              <div className="absolute left-4 top-10 hidden max-w-[220px] xl:-left-6 xl:block">
+              <div className="absolute left-4 top-10 hidden max-w-[220px] lg:-left-6 lg:block">
                 <HeroInsightCard
                   accent="emerald"
                   eyebrow="Demand Signal"
@@ -104,7 +104,7 @@ function HeroSection() {
                 />
               </div>
 
-              <div className="absolute right-4 bottom-12 hidden max-w-[250px] xl:-right-6 xl:block">
+              <div className="absolute right-4 bottom-12 hidden max-w-[250px] lg:-right-6 lg:block">
                 <HeroInsightCard
                   accent="sky"
                   eyebrow="Margin Opportunity"
@@ -123,7 +123,7 @@ function HeroSection() {
                 />
               </div>
 
-              <div className="mt-5 grid gap-4 xl:hidden">
+              <div className="mt-5 grid gap-4 lg:hidden">
                 <HeroInsightCard
                   accent="emerald"
                   eyebrow="Demand Signal"
